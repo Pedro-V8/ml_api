@@ -3,7 +3,6 @@ from fastapi import FastAPI
 from fastapi_sqlalchemy import DBSessionMiddleware, db
 
 from models import Manga
-from schema import Manga as MangaSchema
 
 import os
 from dotenv import load_dotenv
